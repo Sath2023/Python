@@ -1,0 +1,13 @@
+collection = set()
+collection.add(1)
+collection.add(2)
+collection.add(3)
+collection.add(4)
+collection.add(5)
+print("The set adding is : ",collection)
+collection.remove(1)
+print("The set after removing an element is : ",collection)
+pop_element = collection.pop() ## POPS SOME RANDOM VALUE
+print("The popped element is : ",pop_element," the updated collection is : ",collection)
+collection.clear()
+print("The set after clearing is : ",collection)
