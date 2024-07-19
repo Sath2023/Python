@@ -1,0 +1,5 @@
+tuple = ("C","D","A","A","B","B","A")
+print(tuple.count("A"))
+new = list(tuple)
+new.sort()
+print(new)
