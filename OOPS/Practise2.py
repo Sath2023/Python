@@ -6,12 +6,12 @@ class Bank:
 
     def credit(self,amount):
         self.balance = self.balance + amount
-        print("Amount credited =",amount,"to account no :",self.accountno,"available balanace is :",self.balance)
+        print("Amount credited +",amount,"\nAvailable balance is :",self.balance)
 
     def debited(self,amount):
         if self.balance >= amount:
             self.balance = self.balance - amount
-            print("Amount of Rs :",amount,"debited from account no :",self.accountno,"the available balance is :",self.balance)
+            print("Amount debited -:",amount,"\nAvailable balance is :",self.balance)
         else:
             print("Check balance")
     
